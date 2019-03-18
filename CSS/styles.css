@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px auto 0;
+  font-family: 'Press Start 2P', san-serif;
+  font-size: 6.25em;
+  color: #e44985;
+}
+
+.main-header-text{
+  font-size: 2.5rem;
+  color: #e44985;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Arvo', serif;
+    font-size: 2.5rem;
+    color: #bd245f;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #e44985;
+}
+
+a{
+  color: #11999E;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+
+a:hover{
+  color: #bd245f;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #40514E;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 8px;
+  color: #defcfc;
+  width: 10%;
+  margin: 70px auto;
+}
+
+.top-container {
+  background-color: #ffebb7;
+  position: relative;
+  padding-top: 200px;
+  margin: 0;
+}
+
+.middle-container{
+  width: 50%;
+  margin: 75px auto;
+}
+
+.bottom-container{
+  background-color: #defcfc;
+  padding: 30px 0 15px;
+}
+
+.cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  top: 100px;
+  right: 450px;
+}
+
+.bottom-cloud {
+  left: 400px;
+  bottom: 300px;
+}
+
+.skill-row{
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.sendmeletter{
+  margin: 25px auto;
+}
+
+.copyright{
+  color: black;
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
+
+.img-profilepic{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.img-pizza{
+  height: 25%;
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.img-computer{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.myButton {
+ -moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+ -webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+ box-shadow:inset 0px -3px 7px 0px #29bbff;
+ background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+ background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+ background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+ background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+ background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+ background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+ border-radius: 8px;
+ background-color:#2dabf9;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:'Quicksand', sans-serif;
+ font-size:15px;
+ padding:9px 23px;
+ text-decoration:none;
+}
+.myButton:hover {
+ background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+ background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+ background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+ background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+ background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+ background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+ background-color:#0688fa;
+  color:#ffffff;
+}
+.myButton:active {
+ position:relative;
+ top:1px;
+}
